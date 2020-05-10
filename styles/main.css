@@ -992,3 +992,8 @@ td {
         font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
       }
     
+      /**普通指针样式**/  
+body{cursor:url(http://wosn.net/zhizhen/normal.cur),default; }  
+/**链接指针样式**/  
+a:hover{cursor:url(http://wosn.net/zhizhen/link.cur),pointer;}  
+    
