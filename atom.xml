@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loblog.cn</id>
     <title>loblog</title>
-    <updated>2020-05-10T13:52:02.261Z</updated>
+    <updated>2020-05-10T13:55:09.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loblog.cn"/>
     <link rel="self" href="https://loblog.cn/atom.xml"/>
@@ -11,24 +11,6 @@ loblog.cn</subtitle>
     <logo>https://loblog.cn/images/avatar.png</logo>
     <icon>https://loblog.cn/favicon.ico</icon>
     <rights>All rights reserved 2020, loblog</rights>
-    <entry>
-        <title type="html"><![CDATA[友情链接]]></title>
-        <id>https://loblog.cn/post/links/</id>
-        <link href="https://loblog.cn/post/links/">
-        </link>
-        <updated>2020-05-10T12:19:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>因为此站为新站，需要一些友链，所以不嫌麻烦的话，可以在下方评论处留下您的网站哦！😘</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>因为此站为新站，需要一些友链，所以不嫌麻烦的话，可以在下方评论处留下您的网站哦！😘</p>
-<!-- more -->
-<p>格式如下：<br>
-网站名称：loblog<br>
-网址：https://loblog.cn<br>
-备注：一个简单却不平凡的博客❤️</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://loblog.cn/post-images/1589114666147.gif" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://loblog.cn/post/hello-gridea/</id>
