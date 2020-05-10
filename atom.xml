@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loblog.cn</id>
-    <title>LYRY的另一个Blog</title>
-    <updated>2020-05-10T01:15:50.085Z</updated>
+    <title>loblog</title>
+    <updated>2020-05-10T01:21:01.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loblog.cn"/>
     <link rel="self" href="https://loblog.cn/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>RYlo→lo，Blog；
+loblog.cn</subtitle>
     <logo>https://loblog.cn/images/avatar.png</logo>
     <icon>https://loblog.cn/favicon.ico</icon>
-    <rights>All rights reserved 2020, LYRY的另一个Blog</rights>
+    <rights>All rights reserved 2020, loblog</rights>
     <entry>
         <title type="html"><![CDATA[TEST connect]]></title>
         <id>https://loblog.cn/post/test-connect/</id>
