@@ -7,7 +7,7 @@
 <meta name="description" content="Just Duck">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://zxduck.github.io/favicon.ico?v=1627371863084">
+<link rel="shortcut icon" href="https://zxduck.github.io/favicon.ico?v=1627394228021">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -16,9 +16,9 @@
 
 
   
-
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
   
-    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+
   
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -99,7 +99,7 @@
             <p class="article-meta">
               2018-12-12
               
-                <a href="https://zxduck.github.io/tag/p1LEoSPax/" class="badge success">
+                <a href="https://zxduck.github.io/tag/p1LEoSPax/" class="badge secondary">
                   Gridea
                 </a>
               
@@ -138,18 +138,18 @@
         </div>
         
           
-
-          
             <div class="paper" data-aos="fade-in">
-              <div id="disqus_thread"></div>
+              <div id="gitalk-container"></div>
             </div>
+          
+
           
         
       </div>
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://zxduck.github.io/images/avatar.png?v=1627371863084" class="no-responsive avatar">
+    <img src="https://zxduck.github.io/images/avatar.png?v=1627394228021" class="no-responsive avatar">
     <div class="text-muted">Just Duck</div>
     <div class="social-container">
       
@@ -220,21 +220,24 @@ hljs.initHighlightingOnLoad()
 
 
   
-
-  
-    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
 
-    var options = {
-      shortname: 'gridea',
-      apikey: 'Sv0FmLfskewJ0TzqhGEWYXq0kvwOzLvtkyy4NlIVLaF67WKWqE0zLuPngWaPkMEn',
-    }
-    if ('https://disqus.com/api/oauth/2.0/authorize/') {
-      options.api = 'https://disqus.com/api/oauth/2.0/authorize/'
-    }
-    var dsqjs = new DisqusJS(options)
+      var gitalk = new Gitalk({
+        clientID: '2ecbcca4c8c87b137078',
+        clientSecret: '50f19f082b40b46d330930b12f8ef64d1c5dc550',
+        repo: 'gridea-zxduck',
+        owner: 'zxduck',
+        admin: ['zxduck'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
   
 
 
