@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://loblog.cn</id>
+    <id>https://zxduck.com</id>
     <title>loblog</title>
-    <updated>2020-06-06T02:34:21.253Z</updated>
+    <updated>2021-07-27T07:02:37.704Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://loblog.cn"/>
-    <link rel="self" href="https://loblog.cn/atom.xml"/>
-    <subtitle>RYlo→lo，Blog；
-loblog.cn</subtitle>
-    <logo>https://loblog.cn/images/avatar.png</logo>
-    <icon>https://loblog.cn/favicon.ico</icon>
-    <rights>All rights reserved 2020, loblog</rights>
+    <link rel="alternate" href="https://zxduck.com"/>
+    <link rel="self" href="https://zxduck.com/atom.xml"/>
+    <logo>https://zxduck.com/images/avatar.png</logo>
+    <icon>https://zxduck.com/favicon.ico</icon>
+    <rights>All rights reserved 2021, loblog</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://loblog.cn/post/hello-gridea/</id>
-        <link href="https://loblog.cn/post/hello-gridea/">
+        <id>https://zxduck.com/post/hello-gridea/</id>
+        <link href="https://zxduck.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
