@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxduck.com</id>
-    <title>loblog</title>
-    <updated>2021-07-27T07:14:26.361Z</updated>
+    <title>中学鸭 | ZXDUCK</title>
+    <updated>2021-07-27T07:18:54.823Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxduck.com"/>
     <link rel="self" href="https://zxduck.com/atom.xml"/>
+    <subtitle>Just Duck</subtitle>
     <logo>https://zxduck.com/images/avatar.png</logo>
     <icon>https://zxduck.com/favicon.ico</icon>
-    <rights>All rights reserved 2021, loblog</rights>
+    <rights>All rights reserved 2021, 中学鸭 | ZXDUCK</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zxduck.com/post/hello-gridea/</id>
